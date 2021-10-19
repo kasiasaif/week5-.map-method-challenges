@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.row{ 
+  float: left;
+  width: 25%;
+  padding: 8px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.images{
+  float: none;
+  margin-top: 12px;
+  width: 100%;
+  height: 200px;
+} 
+.text{
+  width: 100%;
+  height: 100%;
+
+}
+.line2{
+    background-color: black;
+    float: left;
+    width: 20%;
+    height: 20%;
+    padding: 2px;
+
+}
+
+.image2{
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
